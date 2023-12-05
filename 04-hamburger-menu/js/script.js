@@ -18,7 +18,7 @@ $(function () {
     $dim.fadeToggle();
 
     // $men가 보여지게 : isActive 조건에 따라서
-    if (!isActive) {
+    if (isActive === false) {
       //$menu를 보이게
       slideMenu(0);
       isActive = true;
